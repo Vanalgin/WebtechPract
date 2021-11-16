@@ -1,0 +1,3 @@
+favicon, картинка для шаринга, 
+.mainnav nav li.active a
+border в таблице, страдать в таблице

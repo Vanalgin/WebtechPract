@@ -167,16 +167,9 @@ footer{
     color: white;
     margin: 40px;
 }
-.active a:active{
+#mainnav nav li.active a{
     font-weight: bold;
     color: red;
-}
-#mainnav a:hover{
-    text-decoration: underline;
-    font-weight: bold;
-}
-main li:active a{
-    font-weight: bold;
 }
 .serv-link{
     text-decoration: none;
@@ -200,12 +193,23 @@ table{
 td, th{
     border: 2px solid white;
     padding: 10px;
+    border-left: none;
+    border-right: none;
 }
+
 .price th:first-child{
     width: 10%;
 }
 .price th:nth-child(2), .price th:last-child{
     width: 25%;
+    text-align: center;
+}
+.price th:first-child{
+    width: 10%;
+}
+.price td:nth-child(2), .price th:last-child{
+    width: 25%;
+    text-align: center;
 }
 .description{
     text-align: left;
